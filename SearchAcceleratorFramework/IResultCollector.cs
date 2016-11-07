@@ -2,8 +2,8 @@
 
 namespace SearchAcceleratorFramework
 {
-  public interface IResultCollector<TResult>
+  public interface IResultCollector
   {
-    IEnumerable<WeightedItemResult<TResult>> GetWeightedItemsMatching(string searchTerm);
+    IEnumerable<WeightedItemResult> GetWeightedItemsMatching(string searchTerm);
   }
 }
