@@ -1,0 +1,29 @@
+{
+  "name": "searchacceleratorframework",
+  "version": "0.0.1",
+  "description": "Provides flexible Search framework as an easy alternative to Lucene and other fuller capable libraries.  A framework to allow distributed and multi-field searches, without additional third-party libraries.  Is NOT a replacement to Lucene.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halfbakedbits/SearchAcceleratorFramework.git"
+  },
+  "author": "Brett Veenstra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halfbakedbits/SearchAcceleratorFramework/issues"
+  },
+  "homepage": "https://github.com/halfbakedbits/SearchAcceleratorFramework#readme",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-dotnet-assembly-info": "^0.1.11",
+    "gulp-msbuild": "^0.3.2",
+    "gulp-nuget": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-xunit-runner": "^0.1.1",
+    "request": "^2.72.0",
+    "run-sequence": "^1.1.5"
+  }
+}

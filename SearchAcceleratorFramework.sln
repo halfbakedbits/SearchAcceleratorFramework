@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAcceleratorFramework", "SearchAcceleratorFramework\SearchAcceleratorFramework.csproj", "{AC51BF56-78C7-4518-BE44-902620352BE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAcceleratorFramework", "src\SearchAcceleratorFramework\SearchAcceleratorFramework.csproj", "{AC51BF56-78C7-4518-BE44-902620352BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAcceleratorFramework.Tests", "SearchAcceleratorFramework.Tests\SearchAcceleratorFramework.Tests.csproj", "{953E5318-7A68-494D-B1D4-0D870093CB92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAcceleratorFramework.Tests", "src\SearchAcceleratorFramework.Tests\SearchAcceleratorFramework.Tests.csproj", "{953E5318-7A68-494D-B1D4-0D870093CB92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
