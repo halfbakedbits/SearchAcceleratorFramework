@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using SearchAcceleratorFramework.Collectors;
 
 namespace SearchAcceleratorFramework
 {
@@ -58,7 +59,7 @@ namespace SearchAcceleratorFramework
         .Select(s => new
         {
           Id = s,
-          Weight = collectorResults.Where(w => w.Id == s).Sum(sm =>  sm.Weight)
+          Weight = collectorResults.Where(w => w.Id == s).Sum(sm => sm.Weight)
         })
         .OrderByDescending(o => o.Weight)
         .ToList();

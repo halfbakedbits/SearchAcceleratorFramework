@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using FakeItEasy;
+using SearchAcceleratorFramework.Collectors;
 using SearchAcceleratorFramework.Tests.Samples;
 using Shouldly;
 using Xunit;

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SearchAcceleratorFramework
+namespace SearchAcceleratorFramework.Collectors
 {
   public interface IResultCollector
   {
